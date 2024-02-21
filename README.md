@@ -1,40 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DESAFIO NTT DATA
 
-## Getting Started
+NTT DATA CHALLENGE es una prueba técnica que evalúa los conocimientos de la persona. Siguiendo las instrucciones; El solicitante de empleo debe crear una pagina donde se muestre la informacion que le brinda una API. El problema está estructurado para que el solicitante lo resuelva en el lenguaje de programación de su elección.
 
-First, run the development server:
+![image](https://github.com/Brunosz19/Desafio-NTT-Data/assets/103700965/ef7ec858-ef03-4c2a-ba0a-fb8ea2e2fa5d)
+
+
+## Instalación
+Clona el repositorio con las herramientas que te da GitHub.
+
+![image](https://github.com/Brunosz19/Desafio-NTT-Data/assets/103700965/42489153-51bd-4f0f-9a01-2f71caf85c1b)
+
+Dentro de la consola con el archivo abierto, usa el manejador de paquetes [npm](https://docs.npmjs.com/cli/v8/commands/npm-install) para instalar le aplicacion de mi "Desafio NTT Data".
+
+```bash
+npm install
+```
+
+## Uso
+
+Tras el paso anterior de la instalación, para acceder a la aplicación Next.js y poder ver lo conseguido hasta el momento, tendríamos que teclear el siguiente código en la consola.
+
+```bash
+yarn dev
+```
+o tambien podrias intentar con:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Explicacion con Imagenes
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Para mencionar más sobre esta aplicación, usaré algunas imágenes para mencionar algún código y explicar cuál es el uso de la aplicación Next.js que hice para resolver el desafío.
+En esta aplicación Next.js, se usó getServerSideProps como metodo fetch para obtener los datos de la API y poder mostrarlos segun donde los necesite.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+![image](https://github.com/Brunosz19/Desafio-NTT-Data/assets/103700965/83ae28a3-82f7-4122-a174-63fdc62496d0)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Se utilizó la etiqueta <Table> para crear la tabla con la información. Este tenía que tener los datos para el encabezado y administrar el resto del cuerpo con una iteración de la matriz que me da la respuesta de la API ("data.result").
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![image](https://github.com/Brunosz19/Desafio-NTT-Data/assets/103700965/a7e213f8-43e0-4362-98b4-263ebe40b9fb)
 
-## Learn More
+Finalmente, este se imprime en la tabla, con los datos que manejamos anteriormente.
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://github.com/Brunosz19/Desafio-NTT-Data/assets/103700965/b768594b-63e8-45c0-8002-364bf78b4d67)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Author
+[Bruno Saenz](https://github.com/Brunosz19)
