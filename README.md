@@ -29,6 +29,12 @@ o tambien podrias intentar con:
 npm run dev
 ```
 
+En la consola se mostrará el puerto que utiliza la aplicación. Se deberá de dar click izquierdo + tecla Ctrl sobre donde dice "Local" para accceder a dicha pagina. (http://localhost:3000)
+
+
+![image](https://github.com/Brunosz19/Desafio-NTT-Data/assets/103700965/e246d8c6-3a9a-4f7a-93d0-95fbea945cdc)
+
+
 ## Explicacion con Imagenes
 
 Para mencionar más sobre esta aplicación, usaré algunas imágenes para mencionar algún código y explicar cuál es el uso de la aplicación Next.js que hice para resolver el desafío.
